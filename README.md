@@ -12,3 +12,5 @@ Then, use the fourth-order Adams-Moulton formula to correct the value $x_{i+1}$$
 $$x_{i+1}=x_i+\frac{h}{24}(9f(t_{i+1},x(t_{i+1})) + 19f(t_i,x(t_i))-5f(t_{i-1},x(t_{i-1}))+f(t_{i-2},x(t_{i-2})))$$
 
 Repeat the Adams-Bashforth and Adams-Moulton formulas again with the 4 most recent data points. 
+
+An example is provided under Adams_BM_Test.m
