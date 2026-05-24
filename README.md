@@ -16,4 +16,4 @@ $$x_{i+1}=x_i+\frac{h}{24}(9f(t_{i+1},x(t_{i+1})) + 19f(t_i,x(t_i))-5f(t_{i-1},x
 Repeat the Adams-Bashforth and Adams-Moulton formulas again with the 4 most recent data points. 
 
 
-An example using these formulas is provided under Adams_BM_Test.m
+An example using these formulas is provided under Adams_BM_Test.m, which compares the numerical solution to the analytical solution on a graph. 
