@@ -5,4 +5,4 @@ Given an initial state $$x_0$$ of an ordinary differential equation $$f(t,x(t))$
 
 Next, use the Adams-Bashforth formula with the four most recent data points to predict the next data point 
 
-$$x_{i+1}=x_i + \frac{h}{24}(55f_i-59f_{i-1}+37f_{i-2}-9f_{i-3}) $$
+$$x_{i+1}=x_i + \frac{h}{24}(55f_i-59f(t_{i-1},x(t_{i-1})+37f(t_{i-2},x(t_{i-2})-9f(t_{i-3},x(t_{i-3})) $$
